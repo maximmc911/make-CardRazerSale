@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background: rgb(190, 190, 231);
+} 
+.main_conteiner{
+    max-width: 1440px;
+    width: 100%;
+}
+.cards{
+    margin-top: 150px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    background: #152DF5;
+    background: radial-gradient(at center, #152DF5, #08F79D);
+    max-width: 250px ;
+    width: 100%;
+    border-radius: 12px;
+    border: 25px solid linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%) ;
+
+}
+.card_img img{
+    display: flex;
+   margin: 20px;
+    justify-content: center;
+    width: 200px;
+    
+}
+.card_items{
+    text-align: center;
+    display: grid;
+    grid-row: 1;
+    gap: 10px;
+}
+
+.name p{
+    font-size: 16px;
+    font-family:fantasy;
+}
+.price p{
+    font-size: 20px;
+    font-family: cursive;
+}
+.btn{
+    padding: 25px;
+    text-align: center;
+}
+.btn button{
+    font-size: 15px;
+    width: 100px;
+    font-family:cursive;
+    border-radius: 10px;
+    background: rgb(162, 162, 241);
+    border: 5px solid rgb(151, 151, 252);
+    transition: 1.5s;
+}
+.btn button:hover{
+   transform: scale3d(1.2 , 1.2 , 1.2);
+}
+.name_catalog{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 50px;
+    font-family: 'Rubik One', cursive;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #0b490b 33%, #0D61BC 66%, #0b63e7);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+}
+.name_catalog{
+    display: flex;
+    justify-content: center;
+}
+.header_cointeiner{
+    margin-top: 75px;
+    display: flex;
+    justify-content:space-around;
+}
+.search_price , .search_Name{
+    display: flex;
+    align-items: center;
+    border: 2px solid   rgb(125, 125, 244);
+    border-radius: 15px;
+    background:  rgb(125, 125, 244);
+    gap: 50px;
+}
+input{
+    border-radius: 15px;
+    width: 300px;
+    height: 35px;
+    background:rgb(125, 125, 244);
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    outline: none;
+   
+}
+.search_price_max{
+    display: flex;
+}
+.btn_search{
+    border-radius: 15px;
+    background:rgb(125, 125, 244);
+    border: none;
+}
