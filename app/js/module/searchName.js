@@ -1,4 +1,5 @@
-export const searchName = () => {
+import { CreatCard } from "./makeCard.js";
+ export const searchName = (data, parentDiv) => {
     let search = document.querySelector(`.search_Name input`);
     console.log(search);
  search.addEventListener(`input`, () =>{
@@ -8,4 +9,4 @@ export const searchName = () => {
    item.name.toLowerCase().includes(text.toLowerCase()));
    CreatCard(searchCard, parentDiv);
  });
- };
+ }; 
